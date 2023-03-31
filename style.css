@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+main {
+    max-width: 40rem;
+    
+}
+.subscription {
+    padding: 2.5rem;
+    background-color: hsl(179, 62%, 43%);
+    display: grid;
+    row-gap: 1rem;
+}
+.description {
+    padding: 2.5rem;
+    display: grid;
+    align-items: start;
+    gap: 1rem;
+    background-color: hsl(179, 62%, 43%, 0.8);
+}
+.articleHeader {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color:hsl(0, 100%, 100%, 0.8)
+}
+.description p {
+    font-size: 0.8rem;
+    color: hsl(0, 100%, 100%, 0.6);
+    line-height: 1.2rem;
+    padding-right: 4rem;
+    
+}
+.subscription p {
+    font-size: 0.9rem;
+    color: hsl(0, 100%, 100%, 0.9);
+    
+}
+
+.call {
+    background-color: hsl(0, 100%, 100%);
+    display: grid;
+    gap: 1.5rem;
+    padding: 2.5rem 3rem 2.5rem 2.5rem;
+    
+}
+.callOffer{
+    display: grid;
+    gap: 1rem;
+}
+.guarantee{
+    color:hsl(71, 73%, 54%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.offerDetail{
+    color: hsl(218, 22%, 67%);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.period {
+    color:hsl(100, 100%, 100%, 0.4)
+}
+.subscriptionContent {
+    line-height: 2rem;
+}
+.investment {
+    display: flex;
+    align-items: center;
+}
+
+
+.details {
+    color:hsl(0, 100%, 100%)
+}
+button {
+    line-height: 1;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 3px 20px hsl(178, 63%, 25%, 0.5);
+    color:hsl(0, 100%, 100%)
+}
+.call h1 {
+    color: hsl(179, 62%, 43%);
+}
+@media screen and (min-width: 600px) {
+    body {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+    }
+    main {
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 10px 10px 10px hsl(218, 22%, 67%, 0.2);
+    }
+     .details {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+   
+    
+}
+@media screen and (max-width: 599px) {
+    main {
+        margin: 4rem 2rem;
+    }
+    .subscription,
+    .description {
+        padding: 1.5rem;
+       
+    }
+    .call {
+        padding: 1.5rem;
+        
+    }
+    .offerDetail{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .articleHeader {
+        font-size: 0.75rem;
+
+    }
+    .call h1 {
+        font-size: 1.4rem;
+    }
+    .description p {
+        font-size: 0.9rem;
+        
+    }
+    .subscription p {
+        font-size: 1rem;
+    }
+
+}
