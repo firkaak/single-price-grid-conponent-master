@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://firkaak.github.io/single-price-grid-conponent-master/)
 
 ## My process
 - started with the basic set up with css grid, and moved forward from there to finalize details.
@@ -49,4 +49,4 @@ more about css grid, and flexbox
 ## Author
 
 - Website - [milloktamas](https://www.weddingrafix.com)
-- Frontend Mentor - [@firkaake](https://www.frontendmentor.io/profile/firkaak)
+- Frontend Mentor - [@firkaak](https://www.frontendmentor.io/profile/firkaak)
